@@ -1,0 +1,5 @@
+Validação de formulários e trabalhar com formulários
+
+npm i react-hook-form
+npm i zod
+npm i @hookform/resolvers

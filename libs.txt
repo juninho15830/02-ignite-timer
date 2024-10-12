@@ -3,3 +3,8 @@ Validação de formulários e trabalhar com formulários
 npm i react-hook-form
 npm i zod
 npm i @hookform/resolvers
+
+
+Trabalhar com data para validar os segundos de forma precisa
+
+npm i date-fns

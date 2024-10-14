@@ -26,3 +26,8 @@ export function interruptCurrentCycleAction() {
         type: ActionTypes.INTERRUPT_CURRENT_CYCLE,
     }
 }
+
+export type CycleActions =
+  | ReturnType<typeof addNewCycleAction>
+  | ReturnType<typeof markCurrentCycleAsFinishedAction>
+  | ReturnType<typeof interruptCurrentCycleAction>;
